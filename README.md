@@ -1,11 +1,11 @@
 # jpiel-recipes
 recipes for AutoPkg.
 
-Recipes here are for tools that i use and for which there was no autopkg recipe done.
+The repo was moved to https://github.com/autopkg/jpiel-recipes
 
-For Some of them, when there is one or more files shipped with the App (Readme, UserGuide, examples...)
-I install them with the App in a folder named from the App name.
-I usually also provide an -AppOnly.munki recipe for this applications for those who want to install only
-the app without the folder and other files.
+Please remove the current repo and add the new one :
 
-Localized-LibreOffice is based on Michal Moravec's work. See README in the recipe folder for more info.
+autopkg repo-delete jpiel/jpiel-recipes
+autopkg repo-add autopkg/jpiel-recipes
+
+Current recipes here will be removed.
